@@ -1,0 +1,56 @@
+LAWS OF TDD Robert c. martin
+
+you may not right production code until you have written a failing unit test
+- you may not write more of a unit test than is sufficient to fail, and not compilling is failing
+- you may not write more production code than is sufficient to pass the currently failing test 
+
+default is not a key word as an access modifier
+you mi
+
+			J UNIT FRAME WORK
+
+its a testing freame work in java
+junit is not part of the jdk
+
+create your main class
+
+make your test name very descriptive
+
+the return type is void, because it doesn't return anything
+
+if you add static you are making it a function wich is not.
+
+empty parantheses
+
+import first: 
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@Test is an annotation
+
+the porpose of annotation is to provide additional information
+
+to compile: javac -cp "junit-platform-console-standalone-1.10.2.jar" name of file
+
+to execute: java -jar junit-platform-console-standalone-1.10.2.jar --class-path . --scan-class-path --include-classname CalculatorTest
+
+given/ when/ assert are words to help you think of what a test should look like
+
+Given: what you need to have in place , before executing the functionality
+
+When: the action, the actual calling of the functionality
+
+Assert: the check for the actual result
+
+assertThrows (arithmethicException.class, ()->
+
+
+no args //is au
+all args
+required args
+
+constructor does not have a return type 
+
+git add (file name)
+git commit -m "comment"
+git push
